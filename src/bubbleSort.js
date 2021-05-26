@@ -1,4 +1,4 @@
-// Time complexity => O(n*n)
+// Time complexity => O(n^2)
 // Sorts in place so returning the array is unnecessary
 
 const bubbleSort = (arr) => {
