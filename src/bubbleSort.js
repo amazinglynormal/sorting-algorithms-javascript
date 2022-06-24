@@ -1,5 +1,4 @@
 // Time complexity => O(n^2)
-// Sorts in place so returning the array is unnecessary
 
 const bubbleSort = (arr) => {
   if (arr.length < 2) return;
@@ -21,6 +20,8 @@ const bubbleSort = (arr) => {
     }
     lastIndex--;
   }
+
+  return arr;
 };
 
 module.exports = bubbleSort;

@@ -16,6 +16,8 @@ const selectionSort = (arr) => {
       arr[lowestValueIndex] = temp;
     }
   }
+
+  return arr;
 };
 
 module.exports = selectionSort;

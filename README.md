@@ -38,6 +38,8 @@ const bubbleSort = (arr) => {
     }
     lastIndex--;
   }
+
+  return arr;
 };
 ```
 
@@ -66,6 +68,8 @@ const selectionSort = (arr) => {
       arr[lowestValueIndex] = temp;
     }
   }
+
+  return arr;
 };
 ```
 
@@ -91,5 +95,7 @@ const insertionSort = (arr) => {
     }
     arr[j + 1] = temp;
   }
+
+  return arr;
 };
 ```
